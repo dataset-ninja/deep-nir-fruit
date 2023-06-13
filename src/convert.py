@@ -8,7 +8,7 @@ from supervisely.io.fs import file_exists, get_file_name, get_file_name_with_ext
 def convert_and_upload_supervisely_project(
     api: sly.Api, workspace_id: int, project_name: str
 ) -> sly.ProjectInfo:
-    dataset_path = "/home/alex/DATASETS/TODO/deep_fruit/yolov5"
+    dataset_path = "/home/iwatkot/supervisely/ninja-datasets/deepfruit/yolov5"
     # images_folder = "images"
     anns_folder = "labels"
     ann_ext = ".txt"
