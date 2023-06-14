@@ -1,4 +1,4 @@
-**deepNIR: Improved fruit detection system** (deepNIR: Improved fruit detection system) is a dataset for object detection tasks. It is used in the agriculture industry.
+**deepNIR: Improved fruit detection system** is a dataset for object detection tasks. It is used in the agriculture industry.
 
 The dataset consists of 4295 images with 161979 labeled objects belonging to 11 different classes including *wheat*, *mango*, *cherry*, and other: *kiwi*, *capsicum*, *blueberry*, *apple*, *rockmelon*, *orange*, *avocado*, and *strawberry*.
 
