@@ -58,7 +58,7 @@ AUTHORS: Optional[List[str]] = ["Inkyu Sa", "Jong Yoon Lim", "Ho Seok Ahn"]
 
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = [
     "CSIRO Data61, Australia",
-    "CARES - University of Auckland, Australia",
+    "CARES, University of Auckland, Australia",
 ]
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = [
     "https://research.csiro.au/robotics/",
