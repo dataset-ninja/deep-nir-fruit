@@ -13,7 +13,7 @@ from dataset_tools.templates import (
 ##################################
 # * Before uploading to instance #
 ##################################
-PROJECT_NAME: str = "deepNIR"
+PROJECT_NAME: str = "deepNIR Fruit Detection"
 PROJECT_NAME_FULL: Optional[
     str
 ] = "deepNIR: Dataset for Generating Synthetic near-infrared (NIR) Images and Improved Fruit Detection System Using Deep Learning Techniques"

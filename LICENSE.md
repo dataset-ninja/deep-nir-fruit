@@ -1,1 +1,1 @@
-deepNIR: Improved fruit detection system is under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode) license.
+deepNIR: Dataset for Generating Synthetic near-infrared (NIR) Images and Improved Fruit Detection System Using Deep Learning Techniques is under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode) license.

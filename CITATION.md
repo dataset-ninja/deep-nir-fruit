@@ -17,4 +17,4 @@ If you make use of the deepNIR data, please cite the following reference:
 }
 ```
 
-[🔗 Source](https://zenodo.org/record/6324489/export/hx)
+[Source](https://zenodo.org/record/6324489/export/hx)

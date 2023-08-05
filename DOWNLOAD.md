@@ -1,6 +1,6 @@
-Dataset **deepNIR: Improved fruit detection system** can be downloaded in Supervisely format:
+Dataset **deepNIR Fruit Detection** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervise.ly/supervisely-supervisely-assets-public/teams_storage/D/x/BL/DMYCNbC8jkvpw3qRmajX4Ap6gn7snijrZwVdiAxEqy7BOxDDyu4pBElkzEW14nhERD78SLVtHwwsf2n8Gx6UjKnhZsMsiuiEpaWhwpx7qO0N3VjtRKpp3KasxiDH.tar)
+ [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/Q/v/r5/vTCKMHM2GbrRpWUc6VkTFYchQsZF8JwMBeakPr1ZPABmfizKlmYMO7SDdS4Yx3VRYM2wxWRwYXZon4OsOrPNY6XAT0YnFlyJVmGgRSziOwTsfrboKSRt6hqUyJKN.tar)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
@@ -11,6 +11,8 @@ pip install --upgrade dataset-tools
 ``` python
 import dataset_tools as dtools
 
-dtools.download(dataset='deepNIR: Improved fruit detection system', dst_path='~/dtools/datasets/deepNIR: Improved fruit detection system.tar')
+dtools.download(dataset='deepNIR Fruit Detection', dst_dir='~/dataset-ninja/')
 ```
-The data in original format can be 🔗[downloaded here.](https://zenodo.org/record/6324489/files/yolov5.zip?download=1)
+Make sure not to overlook the [python code example](https://developer.supervisely.com/getting-started/python-sdk-tutorials/iterate-over-a-local-project) available on the Supervisely Developer Portal. It will give you a clear idea of how to effortlessly work with the downloaded dataset.
+
+The data in original format can be [downloaded here](https://zenodo.org/record/6324489/files/yolov5.zip?download=1)
