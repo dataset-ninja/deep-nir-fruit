@@ -17,6 +17,7 @@ PROJECT_NAME: str = "deepNIR Fruit Detection"
 PROJECT_NAME_FULL: Optional[
     str
 ] = "deepNIR: Dataset for Generating Synthetic near-infrared (NIR) Images and Improved Fruit Detection System Using Deep Learning Techniques"
+HIDE_DATASET = False  # set False when 100% sure about repo quality
 
 ##################################
 # * After uploading to instance ##
@@ -86,6 +87,7 @@ def get_settings():
 
     settings = {
         "project_name": PROJECT_NAME,
+        "hide_dataset": HIDE_DATASET,
         "license": LICENSE,
         "applications": APPLICATIONS,
         "category": CATEGORY,
