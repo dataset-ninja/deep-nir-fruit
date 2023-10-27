@@ -56,6 +56,7 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = None
 PAPER: Optional[str] = "https://www.mdpi.com/1424-8220/22/13/4721"
 CITATION_URL: Optional[str] = "https://zenodo.org/record/6324489/export/hx"
 AUTHORS: Optional[List[str]] = ["Inkyu Sa", "Jong Yoon Lim", "Ho Seok Ahn"]
+AUTHORS_CONTACTS: Optional[List[str]] = ["inkyu.sa@csiro.au", "jy.lim@auckland.ac.nz","hs.ahn@auckland.ac.nz", "b.macdonald@auckland.ac.nz"]
 
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = [
     "CSIRO Data61, Australia",
@@ -109,6 +110,7 @@ def get_settings():
     settings["paper"] = PAPER
     settings["citation_url"] = CITATION_URL
     settings["authors"] = AUTHORS
+    settings["authors_contacts"] = AUTHORS_CONTACTS
     settings["organization_name"] = ORGANIZATION_NAME
     settings["organization_url"] = ORGANIZATION_URL
     settings["slytagsplit"] = SLYTAGSPLIT
