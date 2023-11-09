@@ -33,7 +33,7 @@ RELEASE_DATE: Optional[str] = "2022-03-15"  # e.g. "YYYY-MM-DD"
 if RELEASE_DATE is None:
     RELEASE_YEAR: int = None
 
-HOMEPAGE_URL: str = "https://zenodo.org/record/6324489#.YkbEvX9Bzmg"
+HOMEPAGE_URL: str = "https://inkyusa.github.io/deepNIR_dataset/"
 # e.g. "https://some.com/dataset/homepage"
 
 PREVIEW_IMAGE_ID: int = 377150
@@ -54,6 +54,9 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = None
 # If specific colors for classes are needed, fill this dict (e.g. {"class1": [255, 0, 0], "class2": [0, 255, 0]})
 
 PAPER: Optional[str] = "https://www.mdpi.com/1424-8220/22/13/4721"
+REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = {"GitHub":"some_link_to_repo_if_exists","Zenodo": "https://zenodo.org/record/6324489#.YkbEvX9Bzmg", "Kaggle": "https://www.kaggle.com/datasets/enddl22/deepnir-11fruits"}
+
+
 CITATION_URL: Optional[str] = "https://zenodo.org/record/6324489/export/hx"
 AUTHORS: Optional[List[str]] = ["Inkyu Sa", "Jong Yoon Lim", "Ho Seok Ahn"]
 AUTHORS_CONTACTS: Optional[List[str]] = ["inkyu.sa@csiro.au", "jy.lim@auckland.ac.nz","hs.ahn@auckland.ac.nz", "b.macdonald@auckland.ac.nz"]
@@ -108,6 +111,7 @@ def get_settings():
     settings["download_original_url"] = DOWNLOAD_ORIGINAL_URL
     settings["class2color"] = CLASS2COLOR
     settings["paper"] = PAPER
+    settings["repository"] = REPOSITORY
     settings["citation_url"] = CITATION_URL
     settings["authors"] = AUTHORS
     settings["authors_contacts"] = AUTHORS_CONTACTS
