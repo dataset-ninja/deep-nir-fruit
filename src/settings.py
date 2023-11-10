@@ -26,7 +26,7 @@ LICENSE: License = License.CC_BY_4_0()
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Agricultural()]
 CATEGORY: Category = Category.Agriculture()
 
-CV_TASKS: List[CVTask] = [CVTask.ObjectDetection()]
+CV_TASKS: List[CVTask] = [CVTask.ObjectDetection(), CVTask.UnsupervisedLearning()]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.ObjectDetection()]
 
 RELEASE_DATE: Optional[str] = "2022-03-15"  # e.g. "YYYY-MM-DD"
