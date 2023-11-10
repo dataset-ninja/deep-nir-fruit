@@ -1,4 +1,4 @@
-**deepNIR: Dataset for Generating Synthetic near-infrared (NIR) Images and Improved Fruit Detection System Using Deep Learning Techniques** is a dataset for an object detection task. It is used in the agricultural industry. 
+**deepNIR: Dataset for Generating Synthetic near-infrared (NIR) Images and Improved Fruit Detection System Using Deep Learning Techniques** is a dataset for object detection and unsupervised learning tasks. It is used in the agricultural industry. 
 
 The dataset consists of 4295 images with 161979 labeled objects belonging to 11 different classes including *wheat*, *mango*, *cherry*, and other: *kiwi*, *capsicum*, *blueberry*, *apple*, *rockmelon*, *orange*, *avocado*, and *strawberry*.
 
