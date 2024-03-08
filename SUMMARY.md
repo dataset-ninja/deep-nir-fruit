@@ -2,7 +2,7 @@
 
 The dataset consists of 4295 images with 161979 labeled objects belonging to 11 different classes including *wheat*, *mango*, *cherry*, and other: *kiwi*, *capsicum*, *blueberry*, *apple*, *rockmelon*, *orange*, *avocado*, and *strawberry*.
 
-Images in the deepNIR Fruit Detection dataset have bounding box annotations. There is 1 unlabeled image (i.e. without annotations). There are 3 splits in the dataset: *train* (3434 images), *test* (431 images), and *valid* (430 images). The dataset was released in 2022 by the CSIRO Data61, Australia and CARES, University of Auckland, Australia.
+Images in the deepNIR Fruit Detection dataset have bounding box annotations. There is 1 unlabeled image (i.e. without annotations). There are 3 splits in the dataset: *train* (3434 images), *test* (431 images), and *valid* (430 images). The dataset was released in 2022 by the <span style="font-weight: 600; color: grey; border-bottom: 1px dashed #d3d3d3;">CSIRO Data61, Australia</span> and <span style="font-weight: 600; color: grey; border-bottom: 1px dashed #d3d3d3;">CARES, University of Auckland, Australia</span>.
 
 Here are the visualized examples for the classes:
 
