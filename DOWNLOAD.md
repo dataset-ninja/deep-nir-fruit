@@ -1,6 +1,6 @@
 Dataset **deepNIR Fruit Detection** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://www.dropbox.com/scl/fi/l6x06053merun4adbd9v3/deepnir-fruit-detection-DatasetNinja.tar?rlkey=q75luf9e18tcbhbruorj6szmh&dl=1)
+ [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogImZzOi8vYXNzZXRzLzk5OF9kZWVwTklSIEZydWl0IERldGVjdGlvbi9kZWVwbmlyLWZydWl0LWRldGVjdGlvbi1EYXRhc2V0TmluamEudGFyIiwgInNpZyI6ICJpNVJwc25IaVZ4eHJzZENQc2crc3Aybm56ejVReCtaZCs4NGdsU3dObEtZPSJ9)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
